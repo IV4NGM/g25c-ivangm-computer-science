@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.mdl-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.slider{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mdl-button{
+    margin: 15px;
+    margin-top: 20px;
+    width: fit-content;
+}
