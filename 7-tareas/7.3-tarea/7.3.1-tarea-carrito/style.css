@@ -1,6 +1,7 @@
 body{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .mdl-card{
@@ -10,7 +11,7 @@ body{
     padding: 10px;
     justify-content: center;
     height: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .slider{
@@ -22,4 +23,46 @@ body{
     margin: 15px;
     margin-top: 20px;
     width: fit-content;
+}
+
+.cards-container{
+    padding-bottom: 20px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.item-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 0;
+    height: 70px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.item-card p{
+    margin: 0;
+}
+
+.carrito{
+    content: url(https://icones.pro/wp-content/uploads/2021/05/icone-de-panier-noir.png);
+    margin-right: 20px;
+    width: 20px;
+}
+
+.row-container{
+    display: flex;
+    align-items: center;
+    width: 110px;
+}
+
+.row-container-entrega{
+    justify-content: space-between;
+}
+
+#empty-car{
+    margin-top: 10px;
+    font-size: 16px;
 }
