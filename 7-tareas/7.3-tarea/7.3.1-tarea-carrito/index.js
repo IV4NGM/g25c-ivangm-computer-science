@@ -65,12 +65,15 @@ function addElement(nombre, cantidad, rapida, id){
     generalContainer.appendChild(botonCerrar);
     document.querySelector("#cards-container").appendChild(generalContainer);
     botonCerrar.addEventListener("click", function(){
-        generalContainer.remove();
-        itemsNumber--;
-        if(itemsNumber <=0){
-            document.querySelector("#empty-car").style.display = "block";
-        }
-        items = items.filter(e => e.id !=id);
-        console.log(items);
+        generalContainer.classList.add("removed-item-card");
+        generalContainer.addEventListener("transitionend", function(){
+            generalContainer.remove();
+            itemsNumber--;
+            if(itemsNumber <=0){
+                document.querySelector("#empty-car").style.display = "block";
+            }
+            items = items.filter(e => e.id !=id);
+            console.log(items);
+        });
     });
 }

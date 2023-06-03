@@ -40,6 +40,12 @@ body{
     height: 70px;
     width: 90%;
     margin-top: 20px;
+    transition: opacity 0.5s ease-out;
+    opacity: 1;
+}
+
+.removed-item-card{
+    opacity: 0;
 }
 
 .item-card p{
