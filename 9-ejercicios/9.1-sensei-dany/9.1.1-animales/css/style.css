@@ -1,0 +1,14 @@
+body{
+    background-color: #8ecae6;
+}
+
+h1{
+    text-align: center;
+    color: #023047;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
