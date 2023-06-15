@@ -1,0 +1,22 @@
+body{
+    background-color: #fcefb4;
+}
+
+h1{
+    text-align: center;
+    color: #181f22;
+    font-size: 70px;
+}
+
+.task{
+    background-color: #ffc300;
+}
+
+.important-task{
+    background-color: #ff1e00;
+    color: white;
+}
+
+.card{
+    margin: 25px;
+}
