@@ -1,0 +1,16 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "bulbasaur",
+      "type": "grass",
+      "isEvolved": false
+    },
+    {
+      "id": 2,
+      "name": "pikachu",
+      "type": "electric",
+      "isEvolved": false
+    }
+  ]
+}
